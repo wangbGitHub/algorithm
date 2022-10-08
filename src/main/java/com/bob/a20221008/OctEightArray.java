@@ -1,5 +1,8 @@
 package main.java.com.bob.a20221008;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @Author wangbo
  * @Date 2022/10/8 14:06
@@ -49,6 +52,32 @@ public class OctEightArray {
 			subscript++;
 		}
 		return deficiencyArray;
+	}
 
+	/**
+	 * 分析:
+	 * 1.遍历数组中对数据,存在时，当前位置数据变为负数
+	 * 2.获取数据>0的数据
+	 *
+	 * @param nums 待核查的数据
+	 * @return 结果集
+	 * @link https://www.processon.com/view/link/634189f45653bb6a7b50cbc5
+	 */
+	public static List<Integer> mark(int[] nums) {
+		List<Integer> deficiencyArray = new ArrayList<>();
+
+		// 遍历数组中对数据,存在时，当前位置数据变为负数
+		for (int i = 0; i < nums.length; i++) {
+			int subscript = nums[i] - 1;
+			nums[subscript] = -nums[subscript];
+		}
+
+		// 获取数据>0的数据
+		for (int i = 0; i < nums.length; i++) {
+			if (nums[i] > 0) {
+				deficiencyArray.add(i + 1);
+			}
+		}
+		return deficiencyArray;
 	}
 }
