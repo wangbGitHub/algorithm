@@ -1,6 +1,4 @@
-package main.test.java.com.a20220922;
-
-import main.java.com.bob.a20220922.SepTwentyTwoStatistics;
+package com.bob.a20220922;
 
 /**
  * @Author wangbo

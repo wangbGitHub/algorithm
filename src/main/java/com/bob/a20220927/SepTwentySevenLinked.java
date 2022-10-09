@@ -1,6 +1,6 @@
-package main.java.com.bob.a20220927;
+package com.bob.a20220927;
 
-import main.java.com.bob.bean.SingleTrackLinked;
+import com.bob.bean.SingleTrackLinked;
 
 import java.util.HashSet;
 import java.util.Set;

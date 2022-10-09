@@ -1,7 +1,6 @@
-package main.test.java.com.a20220928;
+package com.bob.a20220928;
 
-import main.java.com.bob.a20220928.SepTwentyEightArray;
-import main.java.com.bob.untils.ArrayUntil;
+import com.bob.untils.ArrayUntil;
 
 /**
  * @Author wangbo

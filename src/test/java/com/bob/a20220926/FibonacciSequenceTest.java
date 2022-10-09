@@ -1,6 +1,4 @@
-package main.test.java.com.a20220926;
-
-import main.java.com.bob.a20220926.FibonacciSequence;
+package com.bob.a20220926;
 
 /**
  * @Author wangbo

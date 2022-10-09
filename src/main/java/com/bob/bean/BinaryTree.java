@@ -1,4 +1,4 @@
-package main.java.com.bob.bean;
+package com.bob.bean;
 
 /**
  * @Author wangbo

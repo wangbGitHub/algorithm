@@ -1,4 +1,4 @@
-package main.java.com.bob.a20220928;
+package com.bob.a20220928;
 
 /**
  * @Author wangbo

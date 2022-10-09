@@ -1,4 +1,4 @@
-package main.java.com.bob.a20220926;
+package com.bob.a20220926;
 
 import java.util.HashMap;
 import java.util.Map;

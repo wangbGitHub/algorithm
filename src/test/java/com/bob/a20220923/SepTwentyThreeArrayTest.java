@@ -1,6 +1,4 @@
-package main.test.java.com.a20220923;
-
-import main.java.com.bob.a20220923.SepTwentyThreeArray;
+package com.bob.a20220923;
 
 /**
  * @Author wangbo

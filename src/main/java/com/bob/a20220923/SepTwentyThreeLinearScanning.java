@@ -1,4 +1,4 @@
-package main.java.com.bob.a20220923;
+package com.bob.a20220923;
 
 import java.util.Arrays;
 

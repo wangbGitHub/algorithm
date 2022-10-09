@@ -1,6 +1,6 @@
-package main.java.com.bob.a20220922;
+package com.bob.a20220922;
 
-import main.java.com.bob.bean.SingleTrackLinked;
+import com.bob.bean.SingleTrackLinked;
 
 /**
  * @Author wangbo

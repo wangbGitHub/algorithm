@@ -1,7 +1,6 @@
-package main.test.java.com.a20220927;
+package com.bob.a20220927;
 
-import main.java.com.bob.a20220927.SepTwentySevenLinked;
-import main.java.com.bob.bean.SingleTrackLinked;
+import com.bob.bean.SingleTrackLinked;
 
 /**
  * @Author wangbo

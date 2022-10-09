@@ -1,7 +1,6 @@
-package main.test.java.com.a20221008;
+package com.bob.a20221008;
 
-import main.java.com.bob.a20221008.OctEightArray;
-import main.java.com.bob.untils.ArrayUntil;
+import com.bob.untils.ArrayUntil;
 
 /**
  * @Author wangbo
@@ -14,6 +13,7 @@ public class OctEightArrayTest {
 	public static void main(String[] args) {
 		int[] nums = new int[]{4, 3, 2, 7, 8, 2, 3, 1};
 		ArrayUntil.print(OctEightArray.violence(nums));
+		nums = new int[]{4, 3, 2, 7, 8, 2, 3, 1};
 		ArrayUntil.print(OctEightArray.mark(nums));
 	}
 

@@ -1,4 +1,4 @@
-package main.java.com.bob.a20221008;
+package com.bob.a20221008;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -68,7 +68,13 @@ public class OctEightArray {
 
 		// 遍历数组中对数据,存在时，当前位置数据变为负数
 		for (int i = 0; i < nums.length; i++) {
-			int subscript = nums[i] - 1;
+			int subscript = Math.abs(nums[i]) - 1;
+			if(subscript < 0){
+				subscript = Math.abs(subscript);
+			}
+			if (nums[subscript] < 0){
+				continue;
+			}
 			nums[subscript] = -nums[subscript];
 		}
 
