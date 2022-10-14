@@ -13,15 +13,19 @@ public class OctTenArrayTriangleTest {
 	public static void main(String[] args) {
 		int[] nums = new int[]{2,1,2};
 		ArrayUntil.print(nums);
-		System.out.println(OctTenArrayTriangle.largestPerimeter(nums));
+		System.out.println(OctTenArrayTriangle.optimalRecursion(nums,0,nums.length-1));
+		System.out.println(OctTenArrayTriangle.optimalDp(nums));
 		ArrayUntil.print(nums);
 		nums = new int[]{1,2,1};
-		System.out.println(OctTenArrayTriangle.largestPerimeter(nums));
+		System.out.println(OctTenArrayTriangle.optimalRecursion(nums,0,nums.length-1));
+		System.out.println(OctTenArrayTriangle.optimalDp(nums));
 		nums = new int[]{1,2,2,4,18,8};
 		ArrayUntil.print(nums);
-		System.out.println(OctTenArrayTriangle.largestPerimeter(nums));
+		System.out.println(OctTenArrayTriangle.optimalRecursion(nums,0,nums.length-1));
+		System.out.println(OctTenArrayTriangle.optimalDp(nums));
 		nums = new int[]{1,2,2,2,4,18,8};
 		ArrayUntil.print(nums);
-		System.out.println(OctTenArrayTriangle.largestPerimeter(nums));
+		System.out.println(OctTenArrayTriangle.optimalRecursion(nums,0,nums.length-1));
+		System.out.println(OctTenArrayTriangle.optimalDp(nums));
 	}
 }

@@ -58,4 +58,12 @@ public class SingleTrackLinked {
 		}
 		System.out.println(stringBuilder);
 	}
+
+	public void setValue(int value) {
+		this.value = value;
+	}
+
+	public int getValue() {
+		return value;
+	}
 }
