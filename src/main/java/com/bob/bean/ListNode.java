@@ -7,6 +7,8 @@ package com.bob.bean;
  * @Version 1.0
  */
 public class ListNode {
+	private final static String SYLK = "-->";
+
 	/**
 	 * 值
 	 */
@@ -26,5 +28,17 @@ public class ListNode {
 	public ListNode(int val, ListNode next) {
 		this.val = val;
 		this.next = next;
+	}
+
+	public  void printValue() {
+		StringBuilder stringBuilder = new StringBuilder();
+		stringBuilder.append(this.val);
+		ListNode next = this.next;
+		while (next != null) {
+			stringBuilder.append(SYLK);
+			stringBuilder.append(next.val);
+			next = next.next;
+		}
+		System.out.println(stringBuilder);
 	}
 }
